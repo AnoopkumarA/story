@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Magical Story Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Magical Story Adventure</h1>
+        <p class="subtitle">Create your own special story with your favorite characters!</p>
+
+        
+        <section class="friend-section">
+            <h2>Choose Your Friend!</h2>
+            <div class="character-grid">
+                <div class="character-card">
+                    <div class="icon">😺</div>
+                    <p>Happy Cat</p>
+                </div>
+                <div class="character-card">
+                    <div class="icon">🐶</div>
+                    <p>Friendly Dog</p>
+                </div>
+                <div class="character-card">
+                    <div class="icon">✨</div>
+                    <p>Magic Spirit</p>
+                </div>
+                <div class="character-card">
+                    <div class="icon">😊</div>
+                    <p>Little Friend</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="place-section">
+            <h2>Choose Your Adventure Place!</h2>
+            <div class="place-grid">
+                <div class="place-card magic-forest">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=800&auto=format&fit=crop" alt="Magic Forest">
+                    </div>
+                    <h3>Magic Forest</h3>
+                    <p>A wonderful forest full of friendly creatures</p>
+                </div>
+                <div class="place-card space-adventure">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?w=800&auto=format&fit=crop" alt="Space Adventure">
+                    </div>
+                    <h3>Space Adventure</h3>
+                    <p>Journey through the stars and planets</p>
+                </div>
+                <div class="place-card underwater-world">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1582967788606-a171c1080cb0?w=800&auto=format&fit=crop" alt="Underwater World">
+                    </div>
+                    <h3>Underwater World</h3>
+                    <p>Explore the magical ocean depths</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="style-section">
+            <h2>Choose Your Story Style!</h2>
+            <div class="style-grid">
+                <div class="style-card">
+                    <div class="icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Singing Adventure</h3>
+                    <p>A musical journey</p>
+                </div>
+                <div class="style-card">
+                    <div class="icon">
+                        <i class="fas fa-dragon"></i>
+                    </div>
+                    <h3>Art Discovery</h3>
+                    <p>Create and explore</p>
+                </div>
+                <div class="style-card">
+                    <div class="icon">💃</div>
+                    <h3>Dancing Fun</h3>
+                    <p>Move and groove</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="story-section">
+            <div class="story-header">
+                <h2>Your Magical Story</h2>
+                <button class="audio-control" aria-label="Listen to story">
+                    <i class="fas fa-volume-up"></i>
+                </button>
+            </div>
+            <div class="story-controls">
+                <button class="generate-story" disabled>
+                    <i class="fas fa-wand-sparkles"></i>
+                    Generate Story
+                </button>
+                <button class="start-over">Start Over</button>
+            </div>
+            <div class="story-display">
+                <div class="story-content"></div>
+                <div class="loading-spinner" style="display: none;">Generating your magical story...</div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
